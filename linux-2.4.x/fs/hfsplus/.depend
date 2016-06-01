@@ -1,0 +1,87 @@
+wrapper.o: wrapper.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blkdev.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+dir.o: dir.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/random.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+tables.o: tables.c \
+   hfsplus_fs.h
+extents.o: extents.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pagemap.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+bnode.o: bnode.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pagemap.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/swap.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+brec.o: brec.c \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+super.o: super.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/locks.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/vfs.h \
+   hfsplus_fs.h
+hfsplus_fs.h: \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_raw.h
+	@touch hfsplus_fs.h
+bfind.o: bfind.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   hfsplus_fs.h
+options.o: options.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   hfsplus_fs.h
+btree.o: btree.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pagemap.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/div64.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+hfsplus_raw.h: \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h
+	@touch hfsplus_raw.h
+catalog.o: catalog.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+unicode.o: unicode.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/nls.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+inode.o: inode.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mm.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pagemap.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/version.h \
+   hfsplus_fs.h \
+   hfsplus_raw.h
+.PRECIOUS:	hfsplus_fs.h \
+	hfsplus_raw.h \
+

@@ -1,0 +1,29 @@
+root.o: root.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/stat.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/param.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   devpts_i.h
+devpts_i.h: \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/tty.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/devpts_fs.h
+	@touch devpts_i.h
+inode.o: inode.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kdev_t.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/locks.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/major.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/stat.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/tty.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/bitops.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   devpts_i.h
+.PRECIOUS:	devpts_i.h \
+

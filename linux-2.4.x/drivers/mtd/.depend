@@ -1,0 +1,171 @@
+mtdcore.o: mtdcore.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ptrace.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/timer.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/major.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioctl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/proc/fs.h) \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/proc_fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/pm.h) \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pm.h
+nftlmount.o: nftlmount.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/miscdevice.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nand.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h
+mtdblock.o: mtdblock.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blk.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/devfs/fs.h) \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/devfs_fs_kernel.h
+mtdblock_ro.o: mtdblock_ro.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blk.h
+redboot.o: redboot.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/partitions.h
+inftlcore.o: inftlcore.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kmod.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/hdreg.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blkpg.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nand.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/inftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blk.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/hdreg.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/kmod.h)
+mtdchar.o: mtdchar.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/semaphore.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/devfs/fs.h) \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/devfs_fs_kernel.h
+cmdlinepart.o: cmdlinepart.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/partitions.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/setup.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/bootmem.h
+mtdpart.o: mtdpart.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/list.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/partitions.h
+mtdconcat.o: mtdconcat.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/concat.h
+afs.o: afs.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/map.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/partitions.h
+ftl.o: ftl.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ptrace.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/timer.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/major.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioctl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/hdreg.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/vmalloc.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blkpg.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/ftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blk.h
+inftlmount.o: inftlmount.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/miscdevice.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/inftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/mtd/debug/verbose.h)
+nftlcore.o: nftlcore.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/miscdevice.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blkpg.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/kmod.h) \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kmod.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/mtd.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nand.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/nftl.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mtd/compatmac.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/blk.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/hdreg.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/nftl/rw.h)

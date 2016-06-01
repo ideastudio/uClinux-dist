@@ -1,0 +1,78 @@
+syscall.o: syscall.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/sched.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/smp_lock.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h
+names.o: names.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/pci/names.h)
+quirks.o: quirks.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/x86/io/apic.h)
+setup-bus.o: setup-bus.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioport.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/cache.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/isa.h) \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/eisa.h)
+pci.o: pci.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/string.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioport.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/spinlock.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pm.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kmod.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/bitops.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/delay.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/cache.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/page.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/dma.h \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/hotplug.h) \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/proc/fs.h) \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/pm.h) \
+   $(wildcard /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/config/pcipool/debug.h)
+compat.o: compat.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h
+setup-res.o: setup-res.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioport.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/cache.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/slab.h
+proc.o: proc.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/proc_fs.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/seq_file.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/uaccess.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/byteorder.h
+setup-irq.o: setup-irq.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/kernel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/pci.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/errno.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/ioport.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/cache.h

@@ -1,0 +1,11 @@
+deflate.o: deflate.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/zutil.h \
+   defutil.h
+deflate_syms.o: deflate_syms.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/zlib.h
+deftree.o: deftree.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/zutil.h \
+   defutil.h

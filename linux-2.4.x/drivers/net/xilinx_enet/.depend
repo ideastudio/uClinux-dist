@@ -1,0 +1,62 @@
+xemac_intr.o: xemac_intr.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xipif_v1_23_b.h
+xemac_intr_fifo.o: xemac_intr_fifo.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xipif_v1_23_b.h
+xemac_i.h: \
+   xemac.h \
+   xemac_l.h
+	@touch xemac_i.h
+xemac.o: xemac.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xipif_v1_23_b.h
+xemac_l.h: \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h
+	@touch xemac_l.h
+xemac.h: \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xstatus.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xpacket_fifo_v1_00_b.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xdma_channel.h
+	@touch xemac.h
+xemac_phy.o: xemac_phy.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h
+xemac_g.o: xemac_g.c \
+   xemac.h
+xemac_intr_dma.o: xemac_intr_dma.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbuf_descriptor.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xdma_channel.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xipif_v1_23_b.h
+adapter.o: adapter.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/module.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/init.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/netdevice.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/etherdevice.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/skbuff.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/linux/mii.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/io.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/include/asm/irq.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac.h \
+   xemac_i.h
+xemac_options.o: xemac_options.c \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xbasic_types.h \
+   xemac_i.h \
+   /home/darkspr1te/Desktop/jtag/samsung-sc344b0x/source/linux-dev/2008-test/uClinux-dist/linux-2.4.x/arch/microblaze/xilinx_ocp/xio.h
+.PRECIOUS:	xemac_i.h \
+	xemac_l.h \
+	xemac.h \
+

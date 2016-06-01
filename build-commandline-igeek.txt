@@ -1,0 +1,1 @@
+make CROSS_COMPILE=/home/darkspr1te/Desktop/jtag/toolchains/arm-elf-2004/usr/local/bin/arm-elf- menuconfig

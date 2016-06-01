@@ -1,0 +1,1 @@
+#define CONFIG_FLASHAUTOBIT 1
